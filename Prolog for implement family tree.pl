@@ -58,3 +58,13 @@ uncle_of(X,Y):-
 ancestor_of(X,Y):- parent_of(X,Y).
 ancestor_of(X,Y):- parent_of(X,Z),
     ancestor_of(Z,Y).
+
+OUTPUT :
+?-mother_of(X,jess).
+
+?-parent_of(X,simon).
+
+?-sister_of(X,lily).
+
+?-ancestor_of(X,lily).
+
